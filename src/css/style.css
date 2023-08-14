@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+    color: #FFF;
+  }
+
+header {
+  background-color: #000;
+}
+
+#nav-header {
+  background-color: #000!important;
+}
+
+.navbar-nav {
+  margin-left: 15px;
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  color: #FFF;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  color: #FFF;
+}
+
+.btn-header {
+  border-radius: 0%;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+.btn-header:hover {
+  border: 1px solid #FFF;
+}
+
+#nav-form {
+  position: absolute;
+  right: 0px;
+}
+
+#nav-form>input {
+  margin-right: 15px;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(215,255,1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ }
+
+.navMobile{
+  background-color: #343A40;
+  display: flex;
+  margin-top: -95px;
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  width: 147px;
+}
+
+#btnclose {
+  position: absolute;
+  right: 24px;
+  top: 5px;
+  height: 31px;
+}
+
+#navbarMobile {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#nav-link-mobile{
+  margin-bottom: 4px;
+}
+
+#nav-link-mobile:hover {
+  color: #DAFF01;
+}
+
+.btn-header-mobile{
+  border-radius: 0;
+  border: 1px solid black;
+  color: #000;
+  margin-left: 15px;
+}
+
+.title {
+  color: #000;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 28px;
+}
+
+#categorias {
+  margin-top: 25px;
+}
+
+#categ1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-bottom: 25px;
+  justify-items: center;
+}
+
+#categ2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-bottom: 25px;
+  justify-items: center;
+}
+
+#categ3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  justify-items: center;
+}
+
+/* responsive */
+@media (min-width:768px) {
+  .form-mobile{
+    display: none;
+  }
+}
+
+
+

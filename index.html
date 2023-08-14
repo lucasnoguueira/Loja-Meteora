@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- IMPORT DE FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Loja Meteora</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <header>
+        <div class="container">
+            <nav id="nav-header" class="navbar navbar-expand-md ">
+                <a class="navbar-brand" href="#"><img src="./src/images/Desktop/Logo desktop.png" alt=""></a>
+                <button id="btnopen" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse">
+                  <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Nossas lojas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoções</a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0 d-flex" id="nav-form">
+                    <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search" placeholder="Digite o produto" aria-label="Search">
+                    <button class="btn btn-header  my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+                </div>
+              </nav>
+        </div>
+        
+    </header>
+
+    <div class="container">
+        <div class="form-mobile">
+            <form class="form-inline my-2 my-lg-0 d-flex" id="nav-form-mobile">
+                <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search" placeholder="Digite o produto" aria-label="Search">
+                <button class="btn btn-header-mobile  my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse navMobile" id="navbarSupportedContent">
+        <button id="btnclose" type="button" class="btn-close" aria-label="Close"></button>
+        <ul id="navbarMobile" class="navbar-nav mr-auto">       
+          <li class="nav-item active">
+            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Nossas lojas</a>
+          </li>
+          <li class="nav-item">
+            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Novidades</a>
+          </li>
+          <li class="nav-item">
+              <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Promoções</a>
+            </li>
+        </ul>
+      </div>
+
+    <section id="main-carousel">
+        <div class="row">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 1 _ 1440 (1).png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 2 _ 1440 (1).png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 3 _ 1440 (1).png" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only"></span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+   
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="title">
+                <h1>Busque por categoria:</h1>
+            </div>
+            <div class="row" id="categorias">
+                <div id="categ1">
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria camiseta.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Camisetas</h3>
+                    </div>
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Bolsas.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Bolsas</h3>
+                    </div>                    
+                </div>
+                <div id="categ2">
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calçados.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Calçados</h3>
+                    </div>
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calças.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Calças</h3>
+                    </div>                   
+                </div>
+                <div id="categ3">
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Casacos.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Casacos</h3>
+                    </div>
+                    <div>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria óculos.png"  alt=""></a>
+                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Óculos</h3>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script>
+        document.getElementById("btnclose").onclick = function(){
+        document.querySelector("#navbarSupportedContent").style.display = "none";
+      }
+      
+        document.getElementById("btnopen").onclick = function(){
+        document.querySelector("#navbarSupportedContent").style.display = "flex";
+      }      
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+</html>
