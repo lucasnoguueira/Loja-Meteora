@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js">
-    
+
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <!-- IMPORT DE FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <title>Loja Meteora</title>
 </head>
+
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
     <header>
         <div class="container">
             <nav id="nav-header" class="navbar navbar-expand-md ">
                 <a class="navbar-brand" href="#"><img src="./src/images/Desktop/Logo desktop.png" alt=""></a>
-                <button id="btnopen" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button id="btnopen" class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button>
 
                 <div class="collapse navbar-collapse">
-                  <ul class="navbar-nav mr-auto">
-                    
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Nossas lojas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Novidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Promoções</a>
-                      </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0 d-flex" id="nav-form">
-                    <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search" placeholder="Digite o produto" aria-label="Search">
-                    <button class="btn btn-header  my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+                    <ul class="navbar-nav mr-auto">
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nossas lojas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promoções</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 d-flex" id="nav-form">
+                        <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search"
+                            placeholder="Digite o produto" aria-label="Search">
+                        <button class="btn btn-header  my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
                 </div>
-              </nav>
+            </nav>
         </div>
-        
+
     </header>
 
     <div class="container">
         <div class="form-mobile">
             <form class="form-inline my-2 my-lg-0 d-flex" id="nav-form-mobile">
-                <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search" placeholder="Digite o produto" aria-label="Search">
+                <input style="border-radius: 0%;" class="form-control mr-sm-2" type="search"
+                    placeholder="Digite o produto" aria-label="Search">
                 <button class="btn btn-header-mobile  my-2 my-sm-0" type="submit">Buscar</button>
             </form>
         </div>
@@ -63,52 +73,56 @@
 
     <div class="collapse navbar-collapse navMobile" id="navbarSupportedContent">
         <button id="btnclose" type="button" class="btn-close" aria-label="Close"></button>
-        <ul id="navbarMobile" class="navbar-nav mr-auto">       
-          <li class="nav-item active">
-            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Home</a>
-          </li>
-          <li class="nav-item">
-            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Nossas lojas</a>
-          </li>
-          <li class="nav-item">
-            <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Novidades</a>
-          </li>
-          <li class="nav-item">
-              <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Promoções</a>
+        <ul id="navbarMobile" class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Nossas
+                    lojas</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Novidades</a>
+            </li>
+            <li class="nav-item">
+                <a id="nav-link-mobile" class="nav-link" href="#" style="border-bottom: 1px solid white;">Promoções</a>
             </li>
         </ul>
-      </div>
+    </div>
 
     <section id="main-carousel">
         <div class="row">
             <div class="container">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 1 _ 1440 (1).png" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 2 _ 1440 (1).png" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 3 _ 1440 (1).png" alt="Third slide">
-                      </div>
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 img-fluid"
+                                src="./src/images/Desktop/Banner carousel 1 _ 1440 (1).png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid"
+                                src="./src/images/Desktop/Banner carousel 2 _ 1440 (1).png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid"
+                                src="./src/images/Desktop/Banner carousel 3 _ 1440 (1).png" alt="Third slide">
+                        </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only"></span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only"></span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
                     </a>
-                  </div>
+                </div>
             </div>
         </div>
-   
+
     </section>
 
-    <section>
+    <section id="muralCategorias">
         <div class="container">
             <div class="title">
                 <h1>Busque por categoria:</h1>
@@ -116,36 +130,168 @@
             <div class="row" id="categorias">
                 <div id="categ1">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria camiseta.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Camisetas</h3>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria camiseta.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Camisetas</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Bolsas.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Bolsas</h3>
-                    </div>                    
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Bolsas.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Bolsas</h3>
+                    </div>
                 </div>
                 <div id="categ2">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calçados.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Calçados</h3>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calçados.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Calçados</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calças.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Calças</h3>
-                    </div>                   
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calças.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Calças</h3>
+                    </div>
                 </div>
                 <div id="categ3">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Casacos.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Casacos</h3>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Casacos.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Casacos</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria óculos.png"  alt=""></a>
-                        <h3 style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">Óculos</h3>
+                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria óculos.png"
+                                alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Óculos</h3>
                     </div>
-                    
+
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="products">
+            <div class="title">
+                Produtos que estão bombando!
+            </div>
+            <div class="card" id="camiseta">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card camiseta.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Camiseta Conforto</h5>
+                    <p class="card-text" style="font-size: 13px;">Multicores e tamanhos. Tecido de algodão 100%,
+                        fresquinho para o verão. Modelagem unissex.<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$70,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+            <div class="card" id="calca">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card calça.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Calça Alfaiataria</h5>
+                    <p class="card-text" style="font-size: 13px;">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$180,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+            <div class="card" id="tenis">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card tenis.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Tênis Chunky</h5>
+                    <p class="card-text" style="font-size: 13px;">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$250,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+            <div class="card" id="jaqueta">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card jaqueta jeans.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Jaqueta Jeans</h5>
+                    <p class="card-text" style="font-size: 13px;">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$150,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+            <div class="card" id="oculos">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Cards óculos.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Óculos Redondo</h5>
+                    <p class="card-text" style="font-size: 13px;">Armação metálica em grafite com lentes arredondadas. Sem erro!<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+            <div class="card" id="bolsa">
+                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card bolsa.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Bolsa coringa</h5>
+                    <p class="card-text" style="font-size: 13px;">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!<br><br></p>
+                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
+                    <a href="#" class="btn btnProducts">Ver Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="facilidades">
+            <div class="facilidades">
+                <div class="title1">
+                    Conheça todas as nossas facilidades
+                </div>
+                <div class="pix">
+                    <aside>
+                        <img src="./src/images/Mobile/Ícones/x-diamond.png" alt="pix">
+                    </aside>
+                    <h2 id="tt1">
+                        PAGUE PELO PIX
+                    </h2>
+                    <p id="desc">
+                        Ganhe 5% OFF em pagamentos via PIX
+                    </p>
+                </div>
+
+                <div class="trocaGratis">
+                    <aside>
+                        <img src="./src/images/Mobile/Ícones/arrow-repeat.png" alt="troca">
+                    </aside>
+                    <h2 id="tt1">
+                        TROCA GRÁTIS
+                    </h2>
+                    <p id="desc">
+                        Fique livre para trocar em até 30 dias.
+                    </p>
+                </div>
+
+                <div class="sustentabilidade">
+                    <aside>
+                        <img src="./src/images/Mobile/Ícones/flower1.png" alt="sustentabilidade">
+                    </aside>
+                    <h2 id="tt1">
+                        SUSTENTABILIDADE
+                    </h2>
+                    <p id="desc">
+                        Moda responsável, que respeita o meio ambiente.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -153,28 +299,25 @@
 
 
 
-
-
-
-
     <script>
-        document.getElementById("btnclose").onclick = function(){
-        document.querySelector("#navbarSupportedContent").style.display = "none";
-      }
-      
-        document.getElementById("btnopen").onclick = function(){
-        document.querySelector("#navbarSupportedContent").style.display = "flex";
-      }      
+        document.getElementById("btnclose").onclick = function () {
+            document.querySelector("#navbarSupportedContent").style.display = "none";
+        }
+
+        document.getElementById("btnopen").onclick = function () {
+            document.querySelector("#navbarSupportedContent").style.display = "flex";
+        }      
     </script>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

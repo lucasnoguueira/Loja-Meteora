@@ -95,6 +95,7 @@ header {
   color: #000;
   text-align: center;
   margin-top: 25px;
+  margin-bottom: 15px;
   font-size: 28px;
 }
 
@@ -125,12 +126,75 @@ header {
   justify-items: center;
 }
 
+#products {
+  display: grid;
+}
+
+.card {
+  justify-self: center;
+  margin-bottom: 35px;
+}
+
+.btnProducts {
+  margin-top: 15px;
+  border-radius: 0;
+  background-color: #9353ff;
+}
+
+
+#facilidades {
+  background-color: #000;
+  height: 370px;
+}
+
+.title1 {
+  color: #FFF;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+aside {
+  float: left;
+  margin-left: 15px;
+}
+
+.pix {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.trocaGratis {
+  margin-bottom: 50px;
+}
+
+#tt1 {
+  color: #DAFF01;
+  font-size: 16px;
+  margin-left: 21vw;
+  margin-bottom: 15px;
+}
+
+#desc {
+  color: #FFF;
+  font-size: 13px;
+  margin-left: 21vw;
+}
+
+
+
+
+
+
+
 /* responsive */
 @media (min-width:768px) {
   .form-mobile{
     display: none;
   }
 }
+
+
 
 
 
