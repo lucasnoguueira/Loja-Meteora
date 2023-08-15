@@ -139,6 +139,14 @@ header {
   margin-top: 15px;
   border-radius: 0;
   background-color: #9353ff;
+  font-size: 16px;
+  color: #FFF;
+}
+
+.btnProducts:hover {
+  font-weight: bold;
+  background-color: #9353ff;
+  color: #FFF;
 }
 
 
@@ -181,7 +189,48 @@ aside {
   margin-left: 21vw;
 }
 
+.newsletter {
+  margin-top: 25px;
+}
 
+#newsText {
+  font-size: 16px;
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 25px;
+  display: flex;
+}
+
+#email {
+  border-radius: 0;
+  border: 1px solid black;
+  border-right: 0px;
+}
+
+#email::placeholder {
+  font-size: 16px;
+}
+
+.btnNews {
+  border-radius: 0;
+  background-color: #9353ff;
+  color: white;
+  font-size: 16px;
+}
+
+#rodape {
+  background-color: #000;
+}
+
+.footerControl {
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 
 
