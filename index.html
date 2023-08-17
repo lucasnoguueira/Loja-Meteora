@@ -94,20 +94,36 @@
         <div class="row">
             <div class="container">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" id="mobile">
                         <div class="carousel-item active">
-                            <img class="d-block w-100 img-fluid"
-                                src="./src/images/Mobile/Banner carousel 1 _ 375.png" alt="First slide">
+                            <img id="my-img" class="d-block w-100 img-fluid" src="./src/images/Mobile/Banner carousel 1 _ 375.png"
+                                alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 img-fluid"
-                                src="./src/images/Mobile/Banner carousel 2 _ 375.png" alt="Second slide">
+                            <img class="d-block w-100 img-fluid" src="./src/images/Mobile/Banner carousel 2 _ 375.png"
+                                alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 img-fluid"
-                                src="./src/images/Mobile/Banner carousel 3 _ 375.png" alt="Third slide">
+                            <img class="d-block w-100 img-fluid" src="./src/images/Mobile/Banner carousel 3 _ 375.png"
+                                alt="Third slide">
                         </div>
                     </div>
+
+                    <div class="carousel-inner" id="desktop">
+                        <div class="carousel-item active">
+                            <img id="my-img" class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 1 _ 1440 (1).png"
+                                 alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 2 _ 1440 (1).png"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 img-fluid" src="./src/images/Desktop/Banner carousel 3 _ 1440 (1).png"
+                                alt="Third slide">
+                        </div>
+                    </div>
+
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only"></span>
@@ -127,50 +143,50 @@
             <div class="title">
                 <h1>Busque por categoria:</h1>
             </div>
-            <div class="row" id="categorias">
-                <div id="categ1">
+            <div class="row" id="categoriasMobile">
+                <div id="categ1Mobile">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria camiseta.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria camiseta.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Camisetas</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Bolsas.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria Bolsas.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Bolsas</h3>
                     </div>
                 </div>
-                <div id="categ2">
+                <div id="categ2Mobile">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calçados.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria calçados.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Calçados</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria calças.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria calças.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Calças</h3>
                     </div>
                 </div>
-                <div id="categ3">
+                <div id="categ3Mobile">
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria Casacos.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria Casacos.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Casacos</h3>
                     </div>
                     <div>
-                        <a href=""><img class="img-fluid" src="./src/images/Mobile/Categorias/Categoria óculos.png"
-                                alt=""></a>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Mobile/Categorias/Categoria óculos.png" alt=""></a>
                         <h3
                             style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
                             Óculos</h3>
@@ -179,6 +195,58 @@
                 </div>
 
             </div>
+
+            <div class="row" id="categoriasDesktop">
+                <div id="categ1Desktop">
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria camiseta.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Camisetas</h3>
+                    </div>
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria Bolsa.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Bolsas</h3>
+                    </div>
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria calçados.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Calçados</h3>
+                    </div>
+                </div>
+                <div id="categ2Desktop">
+                    
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria calça.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Calças</h3>
+                    </div>
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria Casacos.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Casacos</h3>
+                    </div>
+                    <div>
+                        <a href=""><img id="imgCateg" class="img-fluid"
+                                src="./src/images/Desktop/Categorias/Categoria óculos.png" alt=""></a>
+                        <h3
+                            style="background-color: black; color: white; text-align: center; font-size: 16px; margin-top: -5px; z-index: 1; position: relative;">
+                            Óculos</h3>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
@@ -187,67 +255,82 @@
             <div class="title">
                 Produtos que estão bombando!
             </div>
-            <div class="card" id="camiseta">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card camiseta.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Camiseta Conforto</h5>
-                    <p class="card-text" style="font-size: 13px;">Multicores e tamanhos. Tecido de algodão 100%,
-                        fresquinho para o verão. Modelagem unissex.<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$70,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
+
+            <div id="gridCategorias">
+                <div class="card" id="camiseta">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Card camiseta.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Camiseta Conforto</h5>
+                        <p class="card-text" style="font-size: 13px;">Multicores e tamanhos. Tecido de algodão 100%,
+                            fresquinho para o verão. Modelagem unissex.<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$70,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
+                </div>
+                <div class="card" id="calca">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Card calça.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Calça Alfaiataria</h5>
+                        <p class="card-text" style="font-size: 13px;">Modelo Wide Leg alfaiataria em linho. Uma peça pra
+                            vida toda!<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$180,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" id="calca">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card calça.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Calça Alfaiataria</h5>
-                    <p class="card-text" style="font-size: 13px;">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$180,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
+            
+            <div id="gridCategorias"> 
+                <div class="card" id="tenis">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Card tenis.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Tênis Chunky</h5>
+                        <p class="card-text" style="font-size: 13px;">Snicker casual com solado mais alto e modelagem
+                            robusta. Modelo unissex.<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$250,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
+                </div>
+                <div class="card" id="jaqueta">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Card jaqueta jeans.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Jaqueta Jeans</h5>
+                        <p class="card-text" style="font-size: 13px;">Modelo unissex oversized com gola de camurça.
+                            Atemporal e autêntica!<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$150,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" id="tenis">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card tenis.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Tênis Chunky</h5>
-                    <p class="card-text" style="font-size: 13px;">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$250,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
+            
+            <div id="gridCategorias">
+                <div class="card" id="oculos">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Cards óculos.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Óculos Redondo</h5>
+                        <p class="card-text" style="font-size: 13px;">Armação metálica em grafite com lentes arredondadas.
+                            Sem erro!<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
+                </div>
+                <div class="card" id="bolsa">
+                    <img class="card-img-top img-fluid" src="./src/images/Mobile/Imagens cards/Card bolsa.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Bolsa coringa</h5>
+                        <p class="card-text" style="font-size: 13px;">Bolsa camel em couro sintético de alta duração. Ideal
+                            para acompanhar você por uma vida!<br><br></p>
+                        <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
+                        <a href="#" class="btn btnProducts">Ver Mais</a>
+                    </div>
                 </div>
             </div>
-            <div class="card" id="jaqueta">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card jaqueta jeans.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Jaqueta Jeans</h5>
-                    <p class="card-text" style="font-size: 13px;">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$150,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
-                </div>
-            </div>
-            <div class="card" id="oculos">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Cards óculos.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Óculos Redondo</h5>
-                    <p class="card-text" style="font-size: 13px;">Armação metálica em grafite com lentes arredondadas. Sem erro!<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
-                </div>
-            </div>
-            <div class="card" id="bolsa">
-                <img class="card-img-top" src="./src/images/Mobile/Imagens cards/Card bolsa.png"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title" style="font-weight: bold; font-size: 16px;">Bolsa coringa</h5>
-                    <p class="card-text" style="font-size: 13px;">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!<br><br></p>
-                    <p class="card-text" style="font-size: 13px; font-weight: bold;">R$ 120,00</p>
-                    <a href="#" class="btn btnProducts">Ver Mais</a>
-                </div>
-            </div>
+            
         </div>
     </section>
 
@@ -301,15 +384,17 @@
             <div class="newsletter">
                 <div class="card" id="cardNews">
                     <div class="card-body" id="cardBodyNews">
-                        <p class="card-text" id="newsText">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</p>                     
+                        <p class="card-text" id="newsText">Quer receber nossas novidades, promoções exclusivas e 10% OFF
+                            na primeira compra? Cadastre-se!</p>
                         <form>
                             <div class="form-group">
-                              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email">
-                              <button type="submit" class="btn btnNews">Enviar</button>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Digite seu email">
+                                <button type="submit" class="btn btnNews">Enviar</button>
                             </div>
-                          </form>
+                        </form>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </section>
@@ -333,7 +418,8 @@
 
         document.getElementById("btnopen").onclick = function () {
             document.querySelector("#navbarSupportedContent").style.display = "flex";
-        }      
+        }
+
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
